@@ -1,0 +1,11 @@
+.jumbotron {
+    background-size: cover;
+    background-image: url("aurora.jpg");
+    height:320px;
+    width: 0 auto;
+    
+  }
+.h4style {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

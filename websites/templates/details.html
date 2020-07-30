@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Login Page{% endblock %}
+
+{% block content %}
+<h1>Thanks for signing up {{content}}!</h1>
+<!-- {{ request.form.name }} -->
+
+<div class="container-fluid">
+    <img src="{{url_for('static', filename='pikachu.gif')}}" margin="20px" />
+</div>
+
+{% endblock %}
